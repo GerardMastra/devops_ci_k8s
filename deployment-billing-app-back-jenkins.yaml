@@ -29,7 +29,7 @@ spec:
   ports:
   - name: billing-app-back-jenkis
     port: 7280
-    nodePort : 31780 
+    nodePort : 31780
   #type: LoadBalancer
   type: NodePort
   selector:
